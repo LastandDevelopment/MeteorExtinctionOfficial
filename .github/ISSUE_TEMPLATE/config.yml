@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Bug
-    url: https://github.community/
-    about: Please report a bug here.
-  - name: Feature Request
-    url: https://bounty.github.com/
-    about: Please post your feature request here.
+  - name: Discussions
+    url: https://github.com/LastandDevelopment/MeteorExtinctionOfficial/discussions
+    about: If you want to tell me your opinion on the game, post it in the discussions tab.
