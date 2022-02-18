@@ -1,0 +1,42 @@
+name: Bug
+description: Report a bug that occured when you played Meteor Extinction.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a bug report, please search for the behaviour in the existing issues. 
+        
+        ---
+        
+        Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: "Which operating system do you use? Please provide the version as well."
+      placeholder: "Windows 11 21H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: gameversion
+    attributes:
+      label: Game Version
+      description: In which version of the game did the bug occur?
+      options:
+        - Version Alpha 0.1
+        - Version Alpha 0.1.1
+        - Version Alpha 0.1.2
+      validations:
+        required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do I need to take to reproduce this bug?
