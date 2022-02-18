@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug
+    url: https://github.community/
+    about: Please report a bug here.
+  - name: Feature Request
+    url: https://bounty.github.com/
+    about: Please post your feature request here.
