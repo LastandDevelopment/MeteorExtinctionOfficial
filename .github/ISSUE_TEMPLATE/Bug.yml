@@ -1,6 +1,6 @@
 name: Bug
 description: Report a bug that occured when you played Meteor Extinction.
-title: ""
+title: "Bug: "
 assignees: ""
 labels: "bug"
 body:
