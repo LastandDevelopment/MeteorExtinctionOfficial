@@ -2,6 +2,7 @@ name: Feature Request
 description: Post your idea for a new feature here.
 title: "Feature Request: "
 labels: "request"
+assignees: "LastandDevelopment"
 body:
   - type: markdown
     attributes:
