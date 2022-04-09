@@ -31,6 +31,16 @@ body:
         - Version Alpha 0.1.2
     validations:
         required: true
+  - type: dropdown
+    id: gameedition
+    attributes:
+      label: Game Edition
+      description: In which edition of the game did the bug occur?
+      options:
+        - PC
+        - Android
+    validations:
+        required: true
   - type: textarea
     id: bug-description
     attributes:
