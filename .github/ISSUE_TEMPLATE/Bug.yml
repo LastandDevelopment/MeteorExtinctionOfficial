@@ -26,11 +26,12 @@ body:
       label: Game Version
       description: In which version of the game did the bug occur?
       options:
-        - Version Alpha 0.1
-        - Version Alpha 0.1.1
-        - Version Alpha 0.1.2
-        - Version Beta 0.2
-        - Version Beta 0.2.1
+        - Beta 0.2.2
+        - Beta 0.2.1
+        - Beta 0.2
+        - Alpha 0.1.2
+        - Alpha 0.1.1
+        - Alpha 0.1
     validations:
         required: true
   - type: textarea
